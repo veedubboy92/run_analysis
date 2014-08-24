@@ -44,7 +44,6 @@ run_analysis<- function() {
         
         
         #Extracts only the measurements on the mean and standard deviation for each measurement. 
-        # Contains: -mean()-X; -mean()-Y; -mean()-Z; -mean(); -std()-X; -std()-Y; -std()-Z; -std()
         search <- grep("-mean\\(\\)|-std\\(\\)", colnames(data))
         extracted_data <- data[,c(1,2,search)]
         
