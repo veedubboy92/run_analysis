@@ -50,7 +50,7 @@ run_analysis<- function() {
         
         #Compute means - aggregated by activity/subject
         melted = melt(extracted_data, id.var = c("activity", "subject"))
-        #Applying mean function to the melted dataset
+        #Applying mean function to the new dataset
         result = dcast(melted, activity + subject ~ variable, mean)
         
         
