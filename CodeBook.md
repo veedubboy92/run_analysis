@@ -20,10 +20,7 @@ train/x_train.txt
 features.txt
 
 #Variables
-Subject -  The subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
-#Calculations
-This function will calculate the average for each variable on activity and subject. 
+Subject -  The subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 Activity - Integer from 1 to 6 representing an activity e.g.,
 1. WALKING
@@ -32,4 +29,10 @@ Activity - Integer from 1 to 6 representing an activity e.g.,
 4. SITTING
 5. STANDING
 6. LAYING
+
+
+
+
+#Calculations
+This function will calculate the average for each variable on activity and subject. 
 
